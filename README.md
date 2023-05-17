@@ -6,3 +6,4 @@ All of the following directories are projects done during the studies:
 | Project name | Description |
 | ------------ | ----------- |
 [`0x00-pagination`](https://github.com/iankisali/alx-backend/tree/main/0x00-pagination) | Understanding paginating dataset with simple page & page_size parameters, using hypermedia and paginating in a deletion-resilient manner. |
+[`0x01-caching`](https://github.com/iankisali/alx-backend/tree/main/0x01-caching) | Introduction into caching systems including FIFO, LIFO, LRU, MRU and LFU & understanding importance of caching and it's limits. |
