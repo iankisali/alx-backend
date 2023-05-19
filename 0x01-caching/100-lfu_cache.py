@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-BaseCaching = __import__('base_caching').BaseCaching
+"""LFU Caching"""
+from base_caching import BaseCaching
 
 
 class LFUCache(BaseCaching):
     """class LFUCache that inherits from BaseCaching and is a caching system"""
-    def __init__(self):
+    def __init__(self) -> None:
         """Init method"""
-        super().__init__()
         self.temp_list = {}
+        super().__init__()
 
     def put(self, key, item):
         """Put method"""
