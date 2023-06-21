@@ -1,4 +1,4 @@
-import { util } from util;
+import util from 'util';
 import redis from 'redis';
 
 const client = redis.createClient();
